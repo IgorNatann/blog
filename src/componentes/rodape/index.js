@@ -6,6 +6,8 @@ export default function Rodape() {
   return (
     <footer className={styles.rodape}>
         <MarcaRegistrada />
+
+        Desenvolvidor por Igor
     </footer>
   )
 }

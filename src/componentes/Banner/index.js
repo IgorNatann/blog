@@ -7,7 +7,7 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
                 <h1 className={styles.titulo}>
-                    Olá, Mundo!
+                    Olá!
                 </h1>
 
                 <p className={styles.paragrafo}>
@@ -20,6 +20,7 @@ export default function Banner() {
                     className={styles.circuloColorido}
                     src={circuloColorido}
                     aria-hidden={true}
+                    alt='Imagem ilustrativa de circulo colorido'
                 />
 
                 <img
